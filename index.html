@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeHometask</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pokemons">
+    <ul class="pokemons-list" id="list">
+    </ul>
+</div>
+
+<div class="pagination">
+    <button id="prev">
+        <span class="material-symbols-outlined">arrow_back_ios</span>
+    </button>
+    <span id="pageCurrent"></span>
+    &nbsp;of&nbsp;
+    <span id="pageNum"></span>
+    <button id="next">
+        <span class="material-symbols-outlined">arrow_forward_ios</span>
+    </button>
+</div>
+<div class="limit">
+    input LIMIT number:
+    <select id="select">
+        <option value="1">1</option>
+    </select>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
